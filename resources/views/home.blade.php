@@ -667,8 +667,8 @@
                         <div class="section-title mb-25">
                             <h3 class="font-pt light-black-color2 mb-20" style="color: #3DBEBD;">Interested in our products?</h3>
                             <p class="light-black-color7 font300"><strong>Call: +61480048458</strong></p>
-                            <a href="{{ url('contact') }}"
-                               class="text-white d-inline-block bor-radius5 plr-32 font14 font600 mr-6 justify-content-center" style="background-color: #3DBEBD; padding: 10px;">Contact os</a>
+                            <a data-animation="fadeInUp" data-delay="1.7s" href="{{ url('contact') }}" class="web-btn h3-web-btn  d-inline-block text-uppercase white h3-theme-bg position-relative over-hidden pl-30 pr-30 ptb-17 shop-collection-btn">
+                                More about us</a>
                         </div><!-- /section-title -->
                     </div>
                 </div><!-- /col -->
@@ -699,26 +699,6 @@
                             <div class="quote position-absolute">
                                 <span class="h3-theme-bg white d-block text-center"><i class="fas fa-quote-left"></i></span>
                             </div>
-                            <div class="rating testi-review d-flex align-items-center justify-content-center mt-15">
-                                <ul class="d-flex mr-2">
-                                    <li>
-                                        <span ><i class="fas fa-star"></i></span>
-                                    </li>
-                                    <li>
-                                        <span ><i class="fas fa-star"></i></span>
-                                    </li>
-                                    <li>
-                                        <span ><i class="fas fa-star"></i></span>
-                                    </li>
-                                    <li>
-                                        <span ><i class="far fa-star"></i></span>
-                                    </li>
-                                    <li>
-                                        <span ><i class="far fa-star"></i></span>
-                                    </li>
-                                </ul>
-                                <span class="light-black-color5 d-inline-block pl-1"> (3.5)</span>
-                            </div><!-- /rating -->
                         </div><!-- /testimonial-abater -->
                     </div><!-- /col -->
                     <div class="col-xl-8  col-lg-8  col-md-8  col-sm-9 col-12 pl-0  pt-6">
@@ -738,26 +718,6 @@
                             <div class="quote position-absolute">
                                 <span class="h3-theme-bg white d-block text-center"><i class="fas fa-quote-left"></i></span>
                             </div>
-                            <div class="rating testi-review d-flex align-items-center justify-content-center mt-15">
-                                <ul class="d-flex mr-2">
-                                    <li>
-                                        <span ><i class="fas fa-star"></i></span>
-                                    </li>
-                                    <li>
-                                        <span ><i class="fas fa-star"></i></span>
-                                    </li>
-                                    <li>
-                                        <span ><i class="fas fa-star"></i></span>
-                                    </li>
-                                    <li>
-                                        <span ><i class="far fa-star"></i></span>
-                                    </li>
-                                    <li>
-                                        <span ><i class="far fa-star"></i></span>
-                                    </li>
-                                </ul>
-                                <span class="light-black-color5 d-inline-block pl-1"> (3.5)</span>
-                            </div><!-- /rating -->
                         </div><!-- /testimonial-abater -->
                     </div><!-- /col -->
                     <div class="col-xl-8  col-lg-8  col-md-7  col-sm-9 col-12 pl-0  pt-6">
@@ -777,26 +737,6 @@
                             <div class="quote position-absolute">
                                 <span class="h3-theme-bg white d-block text-center"><i class="fas fa-quote-left"></i></span>
                             </div>
-                            <div class="rating testi-review d-flex align-items-center justify-content-center mt-15">
-                                <ul class="d-flex mr-2">
-                                    <li>
-                                        <span ><i class="fas fa-star"></i></span>
-                                    </li>
-                                    <li>
-                                        <span ><i class="fas fa-star"></i></span>
-                                    </li>
-                                    <li>
-                                        <span ><i class="fas fa-star"></i></span>
-                                    </li>
-                                    <li>
-                                        <span ><i class="far fa-star"></i></span>
-                                    </li>
-                                    <li>
-                                        <span ><i class="far fa-star"></i></span>
-                                    </li>
-                                </ul>
-                                <span class="light-black-color5 d-inline-block pl-1"> (3.5)</span>
-                            </div><!-- /rating -->
                         </div><!-- /testimonial-abater -->
                     </div><!-- /col -->
                     <div class="col-xl-8  col-lg-8  col-md-7  col-sm-9 col-12 pl-0  pt-6">

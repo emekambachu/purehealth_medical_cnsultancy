@@ -230,33 +230,22 @@
                     <div class="col-xxl-6 col-xl-6  col-lg-6  col-md-8  col-sm-12 col-12 d-sm-flex justify-content-lg-center footer-r-border">
                         <ul class="footer-account pt-80 ">
                             <li>
-                                <a href="#" class="position-relative d-inline-block">My Account</a>
+                                <a href="{{ url('/') }}" class="position-relative d-inline-block">Home</a>
                             </li>
                             <li>
-                                <a href="#" class="position-relative d-inline-block">Order Status</a>
+                                <a href="{{ url('about') }}" class="position-relative d-inline-block">About us</a>
                             </li>
                             <li>
-                                <a href="#" class="position-relative d-inline-block">Shipping</a>
+                                <a href="{{ url('products') }}" class="position-relative d-inline-block">Products</a>
                             </li>
                             <li>
-                                <a href="#" class="position-relative d-inline-block">Billing</a>
+                                <a href="{{ url('services') }}" class="position-relative d-inline-block">Services</a>
                             </li>
                             <li>
-                                <a href="#" class="position-relative d-inline-block">Returns & Exchanges</a>
+                                <a href="{{ url('contact') }}" class="position-relative d-inline-block">Contact us</a>
                             </li>
                             <li>
-                                <a href="#" class="position-relative d-inline-block">International Shipments</a>
-                            </li>
-                        </ul>
-                        <ul class="footer-account pt-80 ">
-                            <li>
-                                <a href="#" class="position-relative d-inline-block">Customer Service</a>
-                            </li>
-                            <li>
-                                <a href="#" class="position-relative d-inline-block">Contact Us</a>
-                            </li>
-                            <li>
-                                <a href="#" class="position-relative d-inline-block">Accessibility</a>
+                                <a href="{{ url('terms') }}" class="position-relative d-inline-block">Terms and Conditions</a>
                             </li>
                         </ul>
                     </div><!-- /col -->
@@ -287,6 +276,7 @@
                 </div><!-- /row -->
             </div><!-- /container -->
         </div>
+
         <div class="footer-bottom">
             <div class="container">
                 <div class="row align-items-center justify-content-center footer-t-border pt-25">
