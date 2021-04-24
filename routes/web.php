@@ -1,8 +1,9 @@
 <?php
 
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
-use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Session;
 
 /*
 |--------------------------------------------------------------------------
@@ -57,9 +58,36 @@ Route::post('product/request/submit', function (Request $request){
     Mail::send('emails.product-request', $data, static function ($message) use ($data) {
         $message->from($data['email'], $data['name']);
         $message->to('support@purehealthmedics.com');
-        $message->replyTo('info@faircorporateonline.com', 'Fair Corporate Bank');
+        $message->replyTo(env('MAIL_FROM_ADDRESS'), env('app_name'));
         $message->subject('Request for '.$data['product']);
     });
 
-    return redirect()->back();
+//    Session::flash('success', 'Deleted');
+    return redirect()->back()->with('success', 'Your request has been sent, our customer service representative will contact you via email');
+});
+
+Route::get('contact', function () {
+    return view('contact');
+});
+
+Route::post('contact/submit', function (Request $request){
+
+    $input = $request->all();
+
+    $data = [
+        'name' => $input['name'],
+        'email' => $input['email'],
+        'subject' => $input['subject'],
+        'description' => $input['description'],
+    ];
+
+    Mail::send('emails.contact-form', $data, static function ($message) use ($data) {
+        $message->from($data['email'], $data['name']);
+        $message->to('support@purehealthmedics.com');
+        $message->replyTo(env('MAIL_FROM_ADDRESS'), env('app_name'));
+        $message->subject('Request for '.$data['product']);
+    });
+
+//    Session::flash('success', 'Deleted');
+    return redirect()->back()->with('success', 'Your message has been sent, our customer representative will contact you via email');
 });

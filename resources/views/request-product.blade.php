@@ -26,6 +26,14 @@
                 <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12">
                     <div class="contact-form-right mt-60">
                         <h4 class="c-title mb-35 font600 title d-inline-block position-relative">Input product details to request for any product of your choice</h4>
+
+                        @if(session('success'))
+                            <div class="text-center text-white p-3" style="width: 70%; margin: 4px auto; background-color: #3e976c;">
+                                <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+                                {{ session('success') }}
+                            </div>
+                        @endif
+
                         <form method="post" action="{{ url('product/request/submit') }}">
                             @csrf
                             <div class="contact-form">
