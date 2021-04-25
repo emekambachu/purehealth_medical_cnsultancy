@@ -705,7 +705,7 @@
                         <div class="testimonial-comment pt-20 pr-50">
                             <p class="light-black-color7">Awesome customer service, would love to purchase from them again.</p>
                             <div class="testimonial-info d-sm-flex align-items-center pt-20">
-                                <h5 class="font600 light-black-color2 pr-10">Jennifer Lopaz</h5>
+                                <h5 class="font600 light-black-color2 pr-10">Georgia Lenkiz</h5>
                                 <span class="h3-theme-color">Sr. Orthopedic</span>
                             </div>
                         </div>
